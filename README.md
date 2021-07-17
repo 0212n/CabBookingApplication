@@ -32,19 +32,26 @@ Expectation from this round
  
  
 Solution Approach : 
-Rider and driver are users of the application
-Position of a cab can be updated.
-Rider can book a cab if the driver is available.
-Status of Driver to be saved.
-Rides booked by a user to be saved with the rider.
-RideManager to take care of booking ride.
-Use case Actors : : Rider , Driver
-Classes : 
-	1. Abstract class : User 
+	1. Rider and driver are users of the application
+	2. Position of a cab can be updated.
+	3. Rider can book a cab if the driver is available.
+	4. Status of Driver to be saved.
+	5. Rides booked by a user to be saved with the rider.
+	6. RideManager to take care of booking ride.
+
+Use case Actors ::
+	1. Rider
+	2. Driver
+
+
+Classes ::
+
+	1. Abstract class -> User 
 		name : 
 		emailId
 		phoneNo
 		userID
+		
 	2. Driver & Rider extends user
 	
 	3. Driver : 
